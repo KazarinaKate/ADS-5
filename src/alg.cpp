@@ -1,7 +1,7 @@
 // Copyright 2021 NNTU-CS
 #include <string>
 #include <map>
-#include "tstack.h"
+#include <stack>
 
 int calculation(char op, int x, int y) {
   switch (op) {
