@@ -1,7 +1,7 @@
 // Copyright 2021 NNTU-CS
 #include <string>
 #include <map>
-#include <tstack.h>
+#include "tstack.h"
 int calculation(char op, int x, int y) {
   switch (op) {
   case '+': return (x + y);
