@@ -2,7 +2,6 @@
 #include <string>
 #include <map>
 #include "tstack.h"
-
 int calculation(char op, int x, int y) {
   switch (op) {
   case '+': return (x + y);
@@ -26,7 +25,6 @@ int priority(char op) {
   default: return 4;
   }
 }
-
 std::string infx2pstfx(std::string inf) {
   std::string res;
   char prob = ' ';
@@ -72,7 +70,6 @@ std::string infx2pstfx(std::string inf) {
   }
   return res;
 }
-     
 int eval(std::string pref) {
   TStack <int, 100> res_stack;
   int res = 0;
