@@ -2,7 +2,6 @@
 #include <string>
 #include <map>
 #include "tstack.h"
-
 int calculation(char op, int x, int y) {
   switch (op) {
   case '+': return (x + y);
